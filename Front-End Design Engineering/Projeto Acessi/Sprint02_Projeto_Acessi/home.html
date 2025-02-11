@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" href="images/logo.png" type="faviconLogo">
+    <title>Home</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="wrapper">
+            <div class="hamb">
+                <nav>
+                    <div class="hamburguer" id="hamburguer-icon">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <div id="menu" class="menu">
+                        <ul>
+                            <li>
+                                <a href="login.html">
+                                    <img src="images/usuario.png" alt="Ícone para acessar conta" class="icon">Acesse sua
+                                    conta
+                                </a>
+                                <div>
+                                    <a href="cadastro.html" class="cadastre-se">ou cadastre-se grátis</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="home.html">
+                                    <img src="images/home.png" alt="Ícone da página inicial" class="icon">Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mapaMetro.html">
+                                    <img src="images/mapa.png" alt="Ícone de mapa do metrô e trem" class="icon">Mapa do
+                                    metrô/Trem
+                                </a>
+                            </li>
+                            <li>
+                                <a href="chatReportar.html">
+                                    <img src="images/reportar.png" alt="Ícone para reportar problema para Ceci"
+                                        class="icon">Reportar para a Ceci
+                                </a>
+                            </li>
+                            <li>
+                                <a href="chatAjuda.html">
+                                    <img src="images/falar.png" alt="Ícone para pedir ajuda à Ceci" class="icon">Falar
+                                    com a
+                                    Ceci
+                                </a>
+                            </li>
+                            <li>
+                                <a href="integrantes.html">
+                                    <img src="images/usuario.png" alt="Ícone de integrantes da equipe"
+                                        class="icon">Integrantes
+                                </a>
+                            </li>
+                            <li>
+                                <a href="login.html" class="desconectar">
+                                    <img src="images/deslogar.png" alt="Ícone para desconectar" class="icon">Desconectar
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="logo">
+                <a href="home.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="linkHeader">
+                <div class="cabecalho">
+                    <div class="linksCabecalho">
+                        <a href="login.html">LOGIN</a> |
+                        <a href="#" id="busca">BUSCA</a>
+                    </div>
+                    <div class="linksCabecalhoIcones">
+                        <a href="#"><img src="images/lupa.png" alt="lupa" class="lupa" id="search-icon"></a>
+                        <a href="atualizarCadastro.html"><img src="images/usuario_branco.png" alt="perfil"
+                                class="perfil"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+        <main>
+            <div id="search-container">
+                <input type="text" id="search-input" placeholder="Digite sua busca..." />
+                <button id="search-button">Pesquisar</button>
+            </div>
+            <div class="botoesMenu">
+                <a href="home.html" class="botaoAtivado">HOME</a>
+                <a href="mapaMetro.html" class="botaoM">MAPA DO METRÔ/TREM</a>
+                <a href="chatReportar.html" class="botaoM botaoReportar">REPORTAR PARA A CECI</a>
+                <a href="chatAjuda.html" class="botaoM botaoFalar">FALAR COM A CECI</a>
+                <a href="integrantes.html" class="botaoM">INTEGRANTES</a>
+                <a href="login.html" class="botaoM_Acesse">
+                    <span id="linha1"><b>ACESSE SUA CONTA</b></span>
+                    <span id="linha2">OU CADASTRE-SE GRÁTIS</span>
+                </a>
+            </div>
+            <h2>Olá Passageiro,</h2>
+            <h3>ÚLTIMAS NOTIFICAÇÕES</h3>
+            <h4>atualizado em 08 de Novembro | 16:50</h4>
+            <div id="blocoNotificacoes">
+                <div class="notificacoes">
+                    <p class="numeroLinha5">5</p>
+                    <div class="infoProblema">
+                        <p class="linhaProblema"><b>Linha 5 - Lilás | Manutenção no Elevador</b></p>
+                        <p class="notificado">CPTM informa manutenção no elevador da Estação Moema entre 12h-13h no dia 09/11 (hoje).</p>
+                    </div>
+                    <p class="hora">08:47</p>
+                </div>
+            </div>
+            <div id="blocoNotificacoes">
+                <div class="notificacoes">
+                    <p class="numeroLinha9">9</p>
+                    <div class="infoProblema">
+                        <p class="linhaProblema"><b>Linha 9 - Esmeralda | Manutenção</b></p>
+                        <p class="notificado">Comunicamos que, devido a manutenção programada, a Linha 9 encerrará suas atividades às 20 horas.</p>
+                    </div>
+                    <p class="hora">10:24</p>
+                </div>
+            </div>        
+            <div id="blocoNotificacoes">
+                <div class="notificacoes">
+                    <p class="numeroLinha4">4</p>
+                    <div class="infoProblema">
+                        <p class="linhaProblema"><b>Linha 4 - Amarela | Lentidão</b></p>
+                        <p class="notificado">A Linha 4 está enfrentando atrasos devido a um congestionamento na via. O tempo de espera pode ser maior.</p>
+                    </div>
+                    <p class="hora">12:10</p>
+                </div>
+            </div>
+            <div id="blocoNotificacoes">
+                <div class="notificacoes">
+                    <p class="numeroLinha5">5</p>
+                    <div class="infoProblema">
+                        <p class="linhaProblema"><b>Linha 5 - Lilás | Manutenção</b></p>
+                        <p class="notificado">CPTM informa manutenção entre nas estação Alto da Boa Vista entre 22h-23h | 17/11 (domingo).</p>
+                    </div>
+                    <p class="hora">13:45</p>
+                </div>
+            </div>
+            <div id="blocoNotificacoes">
+                <div class="notificacoes">
+                    <p class="numeroLinha8">8</p>
+                    <div class="infoProblema">
+                        <p class="linhaProblema"><b>Linha 8 - Diamante | Alta ocupação</b></p>
+                        <p class="notificado">CPTM informa lentidão na Linha 8 | Diamante.</p>
+                    </div>
+                    <p class="hora">16:36</p>
+                </div>
+            </div>
+            <div id="botoesReportarAjuda">
+                <a href="chatReportar.html" class="botaoR">
+                    <img src="images/reportar.png" alt="Ícone Reportar" class="icone-botao">
+                    <b>REPORTAR PARA<br>A CECI</b>
+                </a>                
+                <a href="chatAjuda.html" class="botaoA">
+                    <img src="images/falar.png" alt="Ícone Ceci" class="icone-botao">
+                    <b>FALAR COM A CECI</b>
+                </a>
+            </div>
+        </main>
+    <footer id="rodape">
+        <div class="conteudoRodape">
+            <nav id="navRodape">
+                <div id="pt1">
+                    <a href="home.html">HOME</a>
+                    <br>
+                    <a href="login.html">ACESSE A SUA CONTA/ CADASTRE-SE</a>
+                    <br>
+                    <a href="mapaMetro.html">MAPA DO METRÔ/ TREM</a>
+                </div>
+                <div id ="pt2">
+                    <a href="chatReportar.html">REPORTAR PARA A CECI</a>
+                    <br>
+                    <a href="chatAjuda.html">FALAR COM A CECI</a>
+                    <br>
+                    <a href="integrantes.html">INTEGRANTES</a>
+                </div>
+                <div id="logoRodape">
+                    <img src ="images/logo.png" alt="logo"></a>
+                    <p id="copy">© Copyright 2024 | Grupo CCR</p>
+                </div>
+            </nav>
+        </div>
+    </footer>
+</body>
+    <script src="js/script.js"></script>
+</html>
